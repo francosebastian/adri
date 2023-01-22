@@ -20,7 +20,7 @@ export default function App() {
         </div>
         <div className="px-6 py-6">
           <Link href={`/popeta`}>
-            <Card imgSrc={popeta} title="Parcela Culipran" description={"Soy una descripcion de una parcela, esta es la segunda linea de la descripcion"} />
+            <Card imgSrc={popeta} title="Parcela Popeta, Melipilla 5000M²" description={"Precio: $35.000.000"} />
           </Link>
         </div>
       </div>
