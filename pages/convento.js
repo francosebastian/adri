@@ -1,13 +1,15 @@
 // import head component
-import culipran1 from '../public/culipran/1.png'
-import culipran2 from '../public/culipran/2.png'
-import culipran3 from '../public/culipran/3.png'
-import culipran4 from '../public/culipran/4.png'
-import culipran5 from '../public/culipran/5.png'
-import culipran6 from '../public/culipran/6.png'
-import culipran7 from '../public/culipran/7.png'
-import culipran8 from '../public/culipran/8.png'
-import culipran9 from '../public/culipran/9.png'
+import convento1 from '../public/convento/1.png'
+import convento2 from '../public/convento/2.png'
+import convento3 from '../public/convento/3.png'
+import convento4 from '../public/convento/4.png'
+import convento5 from '../public/convento/5.png'
+import convento6 from '../public/convento/6.png'
+import convento7  from '../public/convento/7.png'
+import convento8 from '../public/convento/8.png'
+import laguna from '../public/convento/laguna.png'
+import rio from '../public/convento/rio.png'
+
 
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -29,31 +31,34 @@ export default function Culipran() {
           <div className="px-6 flex-col">
             <Swiper navigation={true} modules={[Navigation]}>
               <SwiperSlide>
-                <Image src={culipran1} alt="Parcela Melipilla"/>
+                <Image src={convento1} alt="Parcela Santo domingo"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Image src={culipran2} alt="Parcela San antonio" />
+                <Image src={convento2} alt="Parcela Santo domingo" />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src={culipran3} alt="Parcela San antonio" />
+                <Image src={convento3} alt="Parcela Santo domingo" />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src={culipran4} alt="Parcela San antonio" />
+                <Image src={convento4} alt="Parcela Santo domingo" />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src={culipran5} alt="Parcela San antonio" />
+                <Image src={convento5} alt="Parcela Santo domingo" />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src={culipran6} alt="Parcela San antonio" />
+                <Image src={convento6} alt="Parcela Santo domingo" />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src={culipran7} alt="Parcela San antonio" />
+                <Image src={convento7} alt="Parcela Santo domingo" />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src={culipran8} alt="Parcela San antonio" />
+                <Image src={convento8} alt="Parcela Santo domingo" />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src={culipran9} alt="Parcela San antonio" />
+                <Image src={laguna} alt="Parcela Santo domingo" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image src={rio} alt="Parcela Santo domingo" />
               </SwiperSlide>
             </Swiper>
           </div>

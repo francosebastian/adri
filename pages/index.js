@@ -1,5 +1,7 @@
 import Card from "../Components/card";
 import Link from "next/link";
+import convento from '../public/convento/4.png'
+import popeta from '../public/popeta/10.png'
 
 export default function App() {
   return (
@@ -12,28 +14,13 @@ export default function App() {
 
       <div className="flex flex-wrap">
         <div className="px-6 py-6">
-          <Link href={`/culipran`}>
-            <Card title="Parcela Culipran" description={"Soy una descripcion de una parcela, esta es la segunda linea de la descripcion"} />
+          <Link href={`/convento`}>
+            <Card imgSrc={convento} title="Parcela El Yali, Santo Domingo 5000 M²" description={"Precio: $35.000.000"} />
           </Link>
         </div>
         <div className="px-6 py-6">
-          <Link href={`/culipran`}>
-            <Card title="Parcela Culipran" description={"Soy una descripcion de una parcela, esta es la segunda linea de la descripcion"} />
-          </Link>
-        </div>
-        <div className="px-6 py-6">
-          <Link href={`/culipran`}>
-            <Card title="Parcela Culipran" description={"Soy una descripcion de una parcela, esta es la segunda linea de la descripcion"} />
-          </Link>
-        </div>
-        <div className="px-6 py-6">
-          <Link href={`/culipran`}>
-            <Card title="Parcela El Yali" description={"Soy una descripcion de una parcela, esta es la segunda linea de la descripcion"} />
-          </Link>
-        </div>
-        <div className="px-6 py-6">
-          <Link href={`/culipran`}>
-            <Card title="Parcela" description={"Soy una descripcion de una parcela, esta es la segunda linea de la descripcion"} />
+          <Link href={`/popeta`}>
+            <Card imgSrc={popeta} title="Parcela Culipran" description={"Soy una descripcion de una parcela, esta es la segunda linea de la descripcion"} />
           </Link>
         </div>
       </div>
