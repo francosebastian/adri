@@ -10,6 +10,7 @@ import convento8 from '../public/convento/8.png'
 import laguna from '../public/convento/laguna.png'
 import rio from '../public/convento/rio.png'
 
+import Map from "../Components/map";
 
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -25,10 +26,10 @@ export default function Culipran() {
     <>
       <div className="font-serif subpixel-antialiased">
         <div className="p-4 text-black bg-gray-200" >
-          <div className=" px-6 py-6 flex-col">
-            <h1 className="text-2xl">Parcelas Estero el Yali, Santo Domingo</h1>
+          <div className="px-6 py-6 flex-col">
+            <h1 className="text-2xl">Proyecto "Estero el Yali", Santo Domingo</h1>
           </div>
-          <div className="px-6 flex-col">
+          <div className="inset-x-0  px-6 flex-col">
             <Swiper navigation={true} modules={[Navigation]}>
               <SwiperSlide>
                 <Image src={convento1} alt="Parcela Santo domingo"/>
@@ -63,16 +64,29 @@ export default function Culipran() {
             </Swiper>
           </div>
           <div className="px-6 flex-col">
-            <ul className="list-disc p-4 px-6">
-              <li>Sector: Agua Santa</li>
-              <li>5.000 m²</li>
-              <li>Rol propio</li>
-              <li>Factibilidad de agua y luz</li>
-              <li>A 20 min de Melipila</li>
+            <h2 className="py-6 text-xl">Caracteristicas</h2>
+            <ul className="list-disc p-2 px-4">
+              <li>Con acceso a "Estero El Yali"</li>
+              <li>Caminos listo</li>
+              <li>Superficie: 5.000 M²</li>
+              <li>Portón privado solo para residentes</li>
+              <li>Rol Propio.</li>
+              <li>Factibilidad de agua y luz (panel solar)</li>
               <li>Crédito directo</li>
-              <li>Pie desde $10.000.000</li>
+              <li>Entorno totalmente natural</li>
+              <li>Con embarcadero para estero</li>
+              <li>Apto para Kayak y botes sin motor</li>
+              <li>A 20 min. de Santo Domingo</li>
+              <li>Ideal para vivienda.</li>
             </ul>
+            <h2 className="py-6 text-xl">Naturaleza</h2>
+            <p>Zona con 18 cuerpos o cursos de agua distribuidos en el territorio, entre lagunas, esteros, ríos, embalses y desembocaduras</p>
+            <br/>
+            <p>A 5 min de Reserva Nacional El Yali, con acceso a la playa. El Yali es uno de 56 sitios de la estrategia regional para la Conservación de la Biodiversidad</p>
+            <br/>
+            <br/>
           </div>
+          
         </div>
       </div>
     </>

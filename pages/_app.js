@@ -14,10 +14,6 @@ export default function MyApp({ Component, pageProps }) {
             crossorigin="anonymous"
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     />
-    <Head>
-        <title>Adri Gestion Inmobiliaria</title>
-        <meta name='description' content='Venta de parcelas region metropolitana melipilla'/>
-    </Head>
     <Component {...pageProps} />
     </Layout>
   );

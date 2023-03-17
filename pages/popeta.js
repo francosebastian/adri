@@ -26,7 +26,7 @@ export default function Popeta() {
       <div className="font-serif subpixel-antialiased">
         <div className="p-4 text-black bg-gray-200" >
           <div className=" px-6 py-6 flex-col">
-            <h1 className="text-2xl">Parcelas Popeta, Santo Domingo</h1>
+            <h1 className="text-2xl">Parcelas Popeta, Melipilla Región Metropolitana</h1>
           </div>
           <div className="px-6 flex-col">
             <Swiper navigation={true} modules={[Navigation]}>
