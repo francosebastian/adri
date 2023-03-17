@@ -55,17 +55,17 @@ export default function Culipran() {
                     </div>
                     <div className="px-6 flex-col">
                         <ul className="list-disc p-4 px-6">
-                            <li>🟢Con derechos de agua.💦✅</li>
-                            <li>🟢Con canal de regadío.💦✅ </li>
-                            <li>🟢Superficie: 10.000 m² 100% plana✅   </li>
-                            <li>🟢Rol propio✅</li>
-                            <li>🟢Ideal para cultivo agrícola o vivienda✅</li>
-                            <li>🟢Crédito Directo✅</li>
-                            <li>🟢A 15 min de Melipilla✅</li>
-                            <li>🟢Colegios, centros de salud y comercio cerca✅</li>
-                            <li>🟢Fácil acceso, caminos listos✅</li>
-                            <li>🟢Facilidades de pago✅</li>
-                            <li>🟢Factibilidad de luz real, por empalme✅</li>
+                            <li>Con derechos de agua.</li>
+                            <li>Con canal de regadío. </li>
+                            <li>Superficie: 10.000 m² 100% plana</li>
+                            <li>Rol propio</li>
+                            <li>Ideal para cultivo agrícola o vivienda</li>
+                            <li>Crédito Directo</li>
+                            <li>A 15 min de Melipilla</li>
+                            <li>Colegios, centros de salud y comercio cerca</li>
+                            <li>Fácil acceso, caminos listos</li>
+                            <li>Facilidades de pago</li>
+                            <li>Factibilidad de luz real, por empalme</li>
                         </ul>
                     </div>
                 </div>
