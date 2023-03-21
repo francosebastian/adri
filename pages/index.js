@@ -38,7 +38,7 @@ export default function App() {
         </div>
         <div className="px-6 py-6">
           <Link href={`/santaculipran`}>
-            <Card imgSrc={santaculipran} title="Parcelas Culipran , Melipilla 50000M²" description={"Precio: 1260UF"} />
+            <Card imgSrc={santaculipran} title="Parcelas Culipran , Melipilla 5000M²" description={"Precio: 1260UF"} />
           </Link>
         </div>
       </div>
