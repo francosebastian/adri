@@ -3,6 +3,8 @@ import Link from "next/link";
 import convento from '../public/convento/4.png'
 import popeta from '../public/popeta/10.png'
 import culipran from '../public/culipran/5.png'
+import santaculipran from '../public/santaculipran/3.png'
+
 import Head from 'next/head'
 
 export default function App() {
@@ -32,6 +34,11 @@ export default function App() {
         <div className="px-6 py-6">
           <Link href={`/culipran`}>
             <Card imgSrc={culipran} title="Parcela Culipran Agricola, Melipilla 10000M²" description={"Precio: $142.000.000"} />
+          </Link>
+        </div>
+        <div className="px-6 py-6">
+          <Link href={`/santaculipran`}>
+            <Card imgSrc={santaculipran} title="Parcelas Culipran , Melipilla 50000M²" description={"Precio: 1260UF"} />
           </Link>
         </div>
       </div>
