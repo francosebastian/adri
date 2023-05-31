@@ -65,7 +65,7 @@ export default function SantaCulipran() {
               <li>Bosque Nativo</li>
               <li>Financiamiento, Pie minimo $10.000.000 y plazo maximo 10 Años</li>
               <li>Ideal para vivienda.</li>
-              <li>PRECIO DESDE: 1260UF</li>
+              <li>PRECIO DESDE: $50.000.000</li>
             </ul>
             <br/>
             <br/>
