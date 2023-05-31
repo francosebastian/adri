@@ -23,22 +23,22 @@ export default function App() {
       <div className="flex flex-wrap">
         <div className="px-6 py-6">
           <Link href={`/convento`}>
-            <Card imgSrc={convento} title="Parcela El Yali, Santo Domingo 5000 M²" description={"Precio: $35.000.000"} />
+            <Card imgSrc={convento} title="El Yali, Santo Domingo 5000 M²" description={"Precio: $35.000.000"} />
           </Link>
         </div>
         <div className="px-6 py-6">
           <Link href={`/popeta`}>
-            <Card imgSrc={popeta} title="Parcela Popeta, Melipilla 5000M²" description={"Precio: 6500UF"} />
+            <Card imgSrc={popeta} title="Popeta, Melipilla 5000M²" description={"Precio: 6500UF"} />
           </Link>
         </div>
         <div className="px-6 py-6">
           <Link href={`/culipran`}>
-            <Card imgSrc={culipran} title="Parcela Culipran Agricola, Melipilla 10000M²" description={"Precio: $142.000.000"} />
+            <Card imgSrc={culipran} title="Culipran Agricola, Melipilla 10000M²" description={"Precio: $142.000.000"} />
           </Link>
         </div>
         <div className="px-6 py-6">
           <Link href={`/santaculipran`}>
-            <Card imgSrc={santaculipran} title="Parcelas Culipran , Melipilla 5000M²" description={"Precio: 1260UF"} />
+            <Card imgSrc={santaculipran} title="Culipran , Melipilla 5000M²" description={"Precio: 1260UF"} />
           </Link>
         </div>
       </div>

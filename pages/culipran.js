@@ -1,4 +1,5 @@
 // import head component
+import Head from 'next/head'
 import culipran1 from '../public/culipran/1.png'
 import culipran2 from '../public/culipran/2.png'
 import culipran3 from '../public/culipran/3.png'
@@ -20,6 +21,10 @@ import "swiper/css/navigation";
 export default function Culipran() {
     return (
         <>
+            <Head>
+                <title>Parcela Culipran Melipilla</title>
+                <meta name='description' content='Proyecto Parcelas Culipran Melipilla' />
+            </Head>
             <div className="font-serif subpixel-antialiased">
                 <div className="p-4 text-black bg-gray-200" >
                     <div className=" px-6 py-6 flex-col">
