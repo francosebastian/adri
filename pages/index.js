@@ -16,7 +16,7 @@ export default function App() {
     </Head>
       <div className="flex">
         <div className="px-6 py-6 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-gray-900">
-          <h1>Proyectos en venta sdfdsff</h1>
+          <h1>Proyectos en venta</h1>
         </div>
       </div>
 
@@ -28,17 +28,17 @@ export default function App() {
         </div>
         <div className="px-6 py-6">
           <Link href={`/popeta`}>
-            <Card imgSrc={popeta} title="Parcela Popeta, Melipilla 5000M²" description={"Precio: 6.700UF"} />
+            <Card imgSrc={popeta} title="Parcela Popeta, Melipilla 5000M²" description={"Precio: 6.000UF-6.700 UF"} />
           </Link>
         </div>
         <div className="px-6 py-6">
           <Link href={`/culipran`}>
-            <Card imgSrc={culipran} title="Parcela Culipran Agricola, Melipilla 10000M²" description={"Precio: $142.000.000"} />
+            <Card imgSrc={culipran} title="Parcela Culipran Agricola, Melipilla 10000M²" description={"Precio: $152.000.000"} />
           </Link>
         </div>
         <div className="px-6 py-6">
           <Link href={`/santaculipran`}>
-            <Card imgSrc={santaculipran} title="Parcelas Culipran , Melipilla 5000M²" description={"Precio: $50.000.000"} />
+            <Card imgSrc={santaculipran} title="Parcelas Culipran , Melipilla 5000M²" description={"Precio: $47.000.000"} />
           </Link>
         </div>
       </div>
