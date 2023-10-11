@@ -16,7 +16,7 @@ export default function App() {
     </Head>
       <div className="flex">
         <div className="px-6 py-6 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-gray-900">
-          <h1>Parcelas en venta</h1>
+          <h1>Proyectos en venta sdfdsff</h1>
         </div>
       </div>
 
