@@ -1,0 +1,124 @@
+[
+  {
+    "id": "parcelas-popeta",
+    "title": "Parcelas Popeta – Melipilla",
+    "location": "Camino Los Guindos, Popeta – Melipilla, Región Metropolitana",
+    "priceFrom": "UF 6.000",
+    "descriptionShort": "Parcelas de 40.000 m² con crédito directo, sin bancos, factibilidad de agua y luz, y rol propio. Vive o invierte con libertad.",
+    "descriptionLong": "Parcelas Popeta es un exclusivo proyecto de terrenos de 40.000 m² (4 hectáreas) ubicado en Camino Los Guindos, sector Popeta – Melipilla. Combina amplitud, tranquilidad y conectividad dentro de la Región Metropolitana. Las parcelas presentan leves lomajes y zonas planas, ideales para construir, invertir o disfrutar la vida de campo con alta proyección de plusvalía. Cuentan con crédito directo, facilidad de pago para el pie, sin bancos ni evaluación financiera.",
+    "features": [
+      "Parcelas de 40.000 m² (4 hectáreas aprox.)",
+      "Ubicación: Camino Los Guindos, Popeta – Región Metropolitana",
+      "Rol propio listo para escriturar",
+      "Factibilidad de agua y luz",
+      "Portón privado de acceso controlado",
+      "Crédito directo, sin bancos ni sistema financiero",
+      "Financiamiento hasta 15 años",
+      "Precios desde UF 6.000",
+      "Entorno natural con vistas y zonas planas"
+    ],
+    "images": [
+      "/popeta/1.jpg",
+      "/popeta/3.jpg",
+      "/popeta/4.jpg",
+      "/popeta/5.jpg",
+      "/popeta/6.jpg",
+      "/popeta/7.jpg",
+      "/popeta/8.jpg"
+    ],
+    "status": "Preventa"
+  },
+  {
+    "id": "la-goleta",
+    "title": "La Goleta – Parcelas en Puerto Montt",
+    "location": "Ruta 5 Sur, sector La Goleta – Puerto Montt, Región de Los Lagos",
+    "priceFrom": "$35.000.000",
+    "descriptionShort": "Parcelas de 5.000 m² con rol propio, bosque nativo, crédito directo y facilidades de pago. A minutos de Puerto Montt y del Canal de Chacao.",
+    "descriptionLong": "Proyecto La Goleta ofrece parcelas de 5.000 m² ubicadas en plena Ruta 5 Sur, sector La Goleta, Puerto Montt. A solo 30 km del futuro Canal de Chacao (que conectará el continente con Chiloé en solo 5 minutos), 20 km de Puerto Montt, 50 km de Puerto Varas, 30 km de Calbuco y 35 km del aeropuerto El Tepual. Las parcelas cuentan con rol propio, factibilidad de agua y luz, crédito directo y facilidades de pago del pie. Existen opciones con bosque nativo —Coihue, Canelo, Ulmo y Tepa— y otras planas sin bosque, ideales para construir o invertir. Una oportunidad única de inversión en el sur de Chile, con financiamiento directo hasta 10 años.",
+    "features": [
+      "Parcelas de 5.000 m² (½ hectárea aprox.)",
+      "Ubicación: Ruta 5 Sur, sector La Goleta – Puerto Montt",
+      "Rol propio listo para escriturar",
+      "Factibilidad de agua y luz",
+      "Parcelas con bosque nativo (Coihue, Canelo, Ulmo, Tepa) y planas sin bosque",
+      "Financiamiento directo hasta 10 años",
+      "Facilidades de pago para el pie",
+      "Valores desde $35.000.000 CLP",
+      "Conectividad total a Puerto Montt, Puerto Varas y Canal de Chacao"
+    ],
+    "images": [
+      "/la-goleta/1.jpg",
+      "/la-goleta/2.jpg",
+      "/la-goleta/3.jpg",
+      "/la-goleta/4.jpg",
+      "/la-goleta/5.jpg",
+      "/la-goleta/6.jpg",
+      "/la-goleta/7.jpg",
+      "/la-goleta/8.jpg"
+    ],
+    "status": "Disponible"
+  },
+  {
+    "id": "rio-pescado",
+    "title": "Parcelas Río Pescado – Puerto Varas",
+    "location": "Ruta B-613, sector Río Pescado – Puerto Varas, Región de Los Lagos",
+    "priceFrom": "$45.000.000",
+    "descriptionShort": "Parcelas con rol propio desde 5.000 m², con crédito directo y vistas al volcán Calbuco. A minutos del Lago Llanquihue y Puerto Varas.",
+    "descriptionLong": "El proyecto Río Pescado está ubicado en la Ruta B-613, a un costado del Río Pescado (también conocido como Río Sur), en la comuna de Puerto Varas, Región de Los Lagos. A solo 26 km de Puerto Varas, 50 km de Puerto Montt, 52 km del Aeropuerto El Tepual y 48 km del Salto del Petrohué. Estas parcelas cuentan con rol propio y superficies desde 5.000 m², 12.000 m², 15.000 m² hasta 18.000 m², todas inscritas en el SAC. Disponen de factibilidad de agua y luz, y se ofrecen con crédito directo, financiamiento hasta 15 años y facilidades de pago para el pie. El entorno natural es incomparable: rodeadas de vegetación nativa, a los pies del volcán Calbuco y a solo 9 km del Lago Llanquihue. Además, el sector cuenta con servicios básicos, restaurantes, comisarías y atractivos turísticos cercanos.",
+    "features": [
+      "Parcelas con rol propio desde 5.000 m² hasta 18.000 m²",
+      "Ubicación: Ruta B-613, sector Río Pescado – Puerto Varas",
+      "Inscritas en SAC",
+      "Factibilidad de agua y luz",
+      "Crédito directo y facilidades de pago para el pie",
+      "Financiamiento directo hasta 15 años",
+      "Valores desde $45.000.000 CLP",
+      "A 26 km de Puerto Varas y 50 km de Puerto Montt",
+      "A 48 km del Salto del Petrohué y 52 km del Aeropuerto El Tepual",
+      "A solo 9 km del Lago Llanquihue",
+      "Entorno natural con vista al volcán Calbuco",
+      "Cercano a restaurantes, servicios y atractivos turísticos"
+    ],
+    "images": [
+      "/rio-pescado/1.jpg",
+      "/rio-pescado/2.jpg",
+      "/rio-pescado/3.jpg",
+      "/rio-pescado/4.jpg",
+      "/rio-pescado/5.jpg",
+      "/rio-pescado/6.jpg",
+      "/rio-pescado/7.jpg",
+      "/rio-pescado/8.jpg"
+    ],
+    "status": "Disponible"
+  },
+  {
+    "id": "el-convento",
+    "title": "Parcelas El Convento – Santo Domingo",
+    "location": "Sector La Salina del Convento, Santo Domingo, Región de Valparaíso",
+    "priceFrom": "$38.000.000",
+    "descriptionShort": "Parcelas de 5.000 m² con rol propio, energía solar y entorno natural único junto a la Reserva Nacional El Yali. Crédito directo hasta 5 años.",
+    "descriptionLong": "El proyecto El Convento se encuentra en el sector La Salina del Convento, comuna de Santo Domingo, Región de Valparaíso. A solo 5 minutos de la Reserva Nacional El Yali, una de las zonas más importantes de la zona central por su biodiversidad. Las parcelas son de 5.000 m², cuentan con rol propio, energía mediante paneles solares y acceso a agua de pozo, además de encontrarse cercanas al estero El Yali. Es un lugar protegido, ideal para quienes buscan tranquilidad, contacto con la naturaleza y actividades al aire libre como kayak y remo. El entorno destaca por la alta presencia de aves como cisnes de cuello negro, pelícanos, flamencos, loicas y patos silvestres. Proyecto con crédito directo, financiamiento hasta 5 años y facilidad para el pie. Valor desde $38 millones.",
+    "features": [
+      "Parcelas de 5.000 m² con rol propio",
+      "Ubicación: Sector La Salina del Convento – Santo Domingo, Región de Valparaíso",
+      "A solo 5 minutos de la Reserva Nacional El Yali",
+      "Energía mediante paneles solares",
+      "Agua de pozo, cercano al estero El Yali",
+      "Entorno protegido con alta biodiversidad",
+      "Ideal para practicar kayak, remo y actividades al aire libre",
+      "Avistamiento de aves: cisnes, flamencos, pelícanos, loicas y más",
+      "Crédito directo con plazo máximo de 5 años",
+      "Facilidad de pago para el pie",
+      "Valor desde $38 millones CLP"
+    ],
+    "images": [
+      "/convento/4.png",
+      "/convento/7.png",
+      "/convento/1.png",
+      "/convento/2.png",
+      "/convento/3.png",
+      "/convento/6.png"
+    ],
+    "status": "Disponible"
+  }
+]

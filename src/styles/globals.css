@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+    --mac-red: #D00707;
+    --mac-white: #FFFFFF;
+}
+
+html, body, #__next {
+    height: 100%;
+}
+
+body {
+    @apply bg-gradient-to-b from-white to-gray-50 text-gray-900;
+
+    /* APLICACIÓN GLOBAL: Asigna la fuente del cuerpo a todo el body */
+    font-family: var(--font-body);
+}
+
+/* 🚨 APLICACIÓN GLOBAL 2: La fuente de los titulares (Bebas Neue) */
+h1, h2, h3, h4, .text-display {
+    font-family: var(--font-heading), sans-serif;
+    /* Estilos de rugby adicionales */
+    @apply uppercase tracking-wide;
+    /* NOTA: En este punto, puedes agregar la negrita si Bebas Neue tuviera más pesos */
+}
+
+
+.container {
+    @apply max-w-6xl mx-auto px-4;
+}
+
+.card {
+    @apply bg-white rounded-2xl shadow-md;
+}
