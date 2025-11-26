@@ -2,7 +2,7 @@ import { EnvelopeIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/24/outline
 import Link from 'next/link';
 
 export default function Contacto() {
-    return (
+    return(
         <main className="min-h-screen pt-20 bg-gray-50"> {/* Ajuste para el Navbar fijo */}
 
             {/* 1. HEADER DE CONTACTO */}
@@ -85,7 +85,7 @@ export default function Contacto() {
                                 <textarea
                                     id="message"
                                     name="message"
-                                    rows="4"
+                                    rows={4}
                                     required
                                     className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500"
                                     placeholder="Describe tu consulta o proyecto..."
@@ -115,10 +115,10 @@ export default function Contacto() {
                                 <h3 className="text-lg font-semibold">Llámanos</h3>
                             </div>
                             <Link
-                                href="tel:+56912345678" // Reemplaza con tu número real
+                                href="tel:+56964947609" // Reemplaza con tu número real
                                 className="text-gray-300 hover:text-white transition"
                             >
-                                +56 9 1234 5678
+                                +56 9 6494 7609
                             </Link>
                         </div>
 

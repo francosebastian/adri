@@ -15,7 +15,8 @@ export default function Navbar() {
 
                 {/* Logo + nombre */}
                 <Link href="/" className="flex items-center gap-3">
-                    <div className="relative w-12 h-12">
+                    {/* AQUI HEMOS CAMBIADO EL TAMAÑO DEL LOGO */}
+                    <div className="relative w-24 h-24"> {/* Cambiado de w-12 h-12 a w-16 h-16 */}
                         <Image
                             src="/logo.png"
                             alt="Logo Adri Gestion Inmobiliaria"

@@ -1,5 +1,5 @@
 import React from 'react';
-import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'; // Añadido PhoneIcon
+import { EnvelopeIcon } from '@heroicons/react/24/outline'; // Añadido PhoneIcon
 import Image from 'next/image';
 
 export default function Footer() {
@@ -13,7 +13,7 @@ export default function Footer() {
                     {/* Columna 1: Logo y Eslogan */}
                     <div className="flex flex-col gap-4">
                         <div className="flex items-center gap-3">
-                            <div className="relative w-10 h-10">
+                            <div className="relative w-20 h-20">
                                 <Image
                                     src="/logo.png" // Asegúrate de que esta ruta sea correcta
                                     alt="Adri Gestion Inmobiliaria"
@@ -70,7 +70,7 @@ export default function Footer() {
 
                             {/* Facebook SVG (mismo que el original) */}
                             <a
-                                href="https://www.facebook.com/p/Melipilla-Athletic-Club-61550758160348/" // Revisa este enlace si quieres cambiarlo
+                                href="https://www.facebook.com/share/1JM6z5iQJF/" // Revisa este enlace si quieres cambiarlo
                                 aria-label="Facebook"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -89,7 +89,7 @@ export default function Footer() {
 
                 {/* Derechos de autor (parte inferior) */}
                 <div className="text-center text-sm">
-                    © {new Date().getFullYear()} **Adri Gestión Inmobiliaria**. Todos los derechos reservados.
+                    © {new Date().getFullYear()} <strong>Adri Gestión Inmobiliaria.</strong> Todos los derechos reservados.
                 </div>
             </div>
         </footer>

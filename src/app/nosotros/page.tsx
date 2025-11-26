@@ -3,6 +3,7 @@ import { CheckBadgeIcon, ChartBarIcon, MapPinIcon, ShieldCheckIcon } from '@hero
 import Link from 'next/link';
 
 // Componente para las métricas clave
+// @ts-expect-error ignora errores
 const StatCard = ({ icon: Icon, value, label }) => (
     <div className="text-center p-6 bg-gray-100 rounded-lg">
         <Icon className="w-10 h-10 mx-auto text-green-500 mb-3" />
@@ -19,7 +20,7 @@ export default function Nosotros() {
             <section className="relative h-[40vh] bg-gray-800 flex items-center">
                 {/* Placeholder para una imagen de fondo o color */}
                 <Image
-                    src="/about-us-bg.jpg" // Asegúrate de tener una imagen en /public/about-us-bg.jpg
+                    src="/rio-pescado/8.jpg" // Asegúrate de tener una imagen en /public/about-us-bg.jpg
                     alt="Oficina o equipo de Adri Gestión Inmobiliaria"
                     fill
                     className="object-cover opacity-30"
@@ -46,7 +47,7 @@ export default function Nosotros() {
                             Nuestra Historia y Compromiso
                         </h2>
                         <p className="text-gray-600 mb-6 leading-relaxed">
-                            Adri Gestión Inmobiliaria nació en **2021** con la visión de transformar la manera en que las personas invierten en terrenos y propiedades en la zona central de Chile. Identificamos la necesidad de un servicio más transparente, personalizado y enfocado en la **plusvalía real** para nuestros clientes.
+                            Adri Gestión Inmobiliaria nació en <strong>2021</strong> con la visión de transformar la manera en que las personas invierten en terrenos y propiedades en la zona central de Chile. Identificamos la necesidad de un servicio más transparente, personalizado y enfocado en la <strong>plusvalía real</strong> para nuestros clientes.
                         </p>
 
                         <h3 className="text-2xl font-semibold text-green-600 mb-3">
@@ -75,7 +76,7 @@ export default function Nosotros() {
                     {/* Imagen lateral */}
                     <div className="relative h-96 rounded-xl shadow-2xl overflow-hidden hidden md:block">
                         <Image
-                            src="/trust-image.jpg" // Asegúrate de tener una imagen en /public/trust-image.jpg
+                            src="/adri.jpeg" // Asegúrate de tener una imagen en /public/trust-image.jpg
                             alt="Mano estrechándose o vista de una parcela"
                             fill
                             className="object-cover"

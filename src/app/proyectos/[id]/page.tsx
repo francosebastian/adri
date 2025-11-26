@@ -1,8 +1,10 @@
-import Image from 'next/image';
 import { MapPinIcon, TagIcon, CheckIcon, HomeIcon, LinkIcon } from '@heroicons/react/24/outline';
 import proyectosData from '@/data/proyectos.json'; // Asegúrate de ajustar la ruta
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+
+// IMPORTAR EL NUEVO COMPONENTE DE GALERÍA DE CLIENTE
+import ImageGallery from '@/components/ImageGallery'; // Ajusta la ruta si es necesario
 
 // Definición de la interfaz
 interface Proyecto {
@@ -32,17 +34,15 @@ const getProyectoById = (id: string): Proyecto | undefined => {
 type Props = {
     params: Promise<{ id: string }>;
 };
-
 // Componente principal de la página de detalle
 export default async function ProyectoDetallePage(props: Props) {
     const params = await props.params;
     const proyecto =  getProyectoById(params.id);
 
     if (!proyecto) {
-        notFound(); // Muestra la página 404 de Next.js
+        notFound();
     }
 
-    // Clase condicional para el badge de estado
     const statusClass = proyecto.status === 'Preventa'
         ? 'bg-yellow-500 text-yellow-900'
         : 'bg-green-500 text-white';
@@ -59,32 +59,18 @@ export default async function ProyectoDetallePage(props: Props) {
                     </span>
                 </div>
 
-                {/* IMÁGENES */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
-                    <div className="relative h-96 lg:col-span-2 rounded-xl overflow-hidden shadow-lg">
-                        <Image
-                            src={proyecto.images[0]} // Imagen principal grande
-                            alt={`Principal de ${proyecto.title}`}
-                            fill
-                            className="object-cover"
-                            sizes="(max-width: 1024px) 100vw, 66vw"
-                        />
-                    </div>
-                    {/* Imágenes secundarias */}
-                    {proyecto.images.slice(1).map((img, index) => (
-                        <div key={index} className="relative h-48 rounded-xl overflow-hidden shadow-lg">
-                            <Image
-                                src={img}
-                                alt={`Vista ${index + 2} de ${proyecto.title}`}
-                                fill
-                                className="object-cover"
-                                sizes="(max-width: 1024px) 50vw, 33vw"
-                            />
-                        </div>
-                    ))}
+                {/* IMÁGENES: REEMPLAZA ESTA SECCIÓN CON EL NUEVO COMPONENTE DE CLIENTE */}
+                {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+                   ... Código anterior de imágenes ...
                 </div>
+                */}
+                <ImageGallery
+                    images={proyecto.images}
+                    title={proyecto.title}
+                />
 
                 {/* DETALLES Y CONTACTO */}
+                {/* ... (Resto del código del detalle de proyecto sin cambios) ... */}
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
 
                     {/* Columna de Información */}
